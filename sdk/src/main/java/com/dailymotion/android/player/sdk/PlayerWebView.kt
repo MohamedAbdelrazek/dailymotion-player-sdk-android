@@ -137,6 +137,7 @@ class PlayerWebView @JvmOverloads constructor(
             val defaultQueryParameters: MutableMap<String?, String?> = HashMap()
             defaultQueryParameters["sharing-enable"] = "false"
             defaultQueryParameters["fullscreen"] = "false"
+            defaultQueryParameters["ui-logo"] = "false"
             defaultQueryParameters["watchlater-enable"] = "false"
             defaultQueryParameters["like-enable"] = "false"
             defaultQueryParameters["collections-enable"] = "false"
